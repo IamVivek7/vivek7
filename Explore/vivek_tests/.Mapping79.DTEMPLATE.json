@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "3DXnSCmCSgke0YwKOiXdEc",
-    "name" : "Mapping78",
+    "id" : "kPjxsffEe8ReqOhOPp3FW6",
+    "name" : "Mapping79",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V17000000000081"
+        "repoHandle" : "010P9V17000000000082"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "changes",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
