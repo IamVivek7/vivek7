@@ -1,8 +1,8 @@
 {
   "objectInfo" : {
-    "id" : "93XeaoD2Y58evlVZcCQyyN",
-    "name" : "Google",
-    "type" : "Project",
+    "id" : "897FxcjlQ6se4TIG5AxTGx",
+    "name" : "Affiliation Group Configuration to Relationship Type",
+    "type" : "Folder",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
@@ -18,6 +18,6 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2023-09-02T00:06:18.306Z",
+  "updateTime" : "2023-09-02T00:06:18.307Z",
   "objectRefs" : [ ]
 }

@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "93XeaoD2Y58evlVZcCQyyN",
-    "name" : "Google",
+    "id" : "7uDqvyY1NMqdNanMZJlD28",
+    "name" : "Ingestion",
     "type" : "Project",
     "metadata" : {
       "modelVersion" : {
@@ -11,7 +11,7 @@
       "repoInfo" : null,
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "This project contains assets related to the ingestion of various entities",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }

@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "93xeC4y0xXjlc8AguEKk4K",
-    "name" : "m_GBQ_to_GBQ_simple_filter",
-    "type" : "DTEMPLATE",
+    "id" : "aqAhpLyYAlUce7g5PRmyof",
+    "name" : "mapplet_post_procesing_AffiliationGroup",
+    "type" : "DMAPPLET",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V1700000000002G"
+        "repoHandle" : "010P9V40000000000006"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,10 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-09-02T00:06:18.309Z",
+  "updateTime" : "2023-09-02T00:06:18.308Z",
   "objectRefs" : [ {
-    "id" : "3b6ZcgaeGiQiaXkkqMVa0G",
-    "name" : "GBQV2",
+    "id" : "6KrzmfMmTQFe0zsOgxKV2J",
+    "name" : "Amazon_s3_117_to_78_FP",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002Y"
+        "repoHandle" : "010P9V0B000000000074"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

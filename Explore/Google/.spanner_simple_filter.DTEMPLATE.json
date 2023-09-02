@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "93xeC4y0xXjlc8AguEKk4K",
-    "name" : "m_GBQ_to_GBQ_simple_filter",
+    "id" : "5xdsDj5A8ewbLZ6vxG2Mg9",
+    "name" : "spanner_simple_filter",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V1700000000002G"
+        "repoHandle" : "010P9V1700000000002M"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -25,8 +25,8 @@
   "dataFileExtension" : "zip",
   "updateTime" : "2023-09-02T00:06:18.309Z",
   "objectRefs" : [ {
-    "id" : "3b6ZcgaeGiQiaXkkqMVa0G",
-    "name" : "GBQV2",
+    "id" : "026FFGVf0bwkqhpe8UDj04",
+    "name" : "Spanner_Win",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002Y"
+        "repoHandle" : "010P9V0B000000000038"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

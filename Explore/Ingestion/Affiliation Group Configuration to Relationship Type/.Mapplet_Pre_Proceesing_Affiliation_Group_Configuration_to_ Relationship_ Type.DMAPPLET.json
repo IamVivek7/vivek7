@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "eXpKrXj04QlfhG46XOXzcZ",
-    "name" : "spanner_advanced_filter",
-    "type" : "DTEMPLATE",
+    "id" : "ft0aOxtO2ObbIuh8DWA4I7",
+    "name" : "Mapplet_Pre_Proceesing_Affiliation_Group_Configuration_to_ Relationship_ Type",
+    "type" : "DMAPPLET",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V1700000000002O"
+        "repoHandle" : "010P9V40000000000005"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -25,8 +25,8 @@
   "dataFileExtension" : "zip",
   "updateTime" : "2023-09-02T00:06:18.307Z",
   "objectRefs" : [ {
-    "id" : "0s8OSw456a3c0XS1nMwU6p",
-    "name" : "Spanner",
+    "id" : "5f6NxvkgnEacsU8Hzp1Wu0",
+    "name" : "Amazone_S3_117",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002Z"
+        "repoHandle" : "010P9V0B000000000075"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -44,5 +44,25 @@
       }
     },
     "path" : "/SYS"
+  }, {
+    "id" : "4usxPDObcaVdrAQckZqzK1",
+    "name" : "Cleanse_Trim",
+    "type" : "CLEANSE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "4usxPDObcaVdrAQckZqzK1"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Shared/Cleanse"
   } ]
 }
