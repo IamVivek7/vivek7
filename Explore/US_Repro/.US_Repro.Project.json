@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "8ZOGlSZe1AgfRZPenen5at",
+    "name" : "US_Repro",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-09-14T20:19:51.482Z",
+  "objectRefs" : [ ]
+}
