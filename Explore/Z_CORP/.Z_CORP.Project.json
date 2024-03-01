@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "1VzF0mHsfILjj8mE0FNLcX",
+    "name" : "Z_CORP",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Individual folder for CORP pod",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-03-01T18:52:32.280Z",
+  "objectRefs" : [ ]
+}

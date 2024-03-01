@@ -1,0 +1,48 @@
+{
+  "objectInfo" : {
+    "id" : "8OQu1AlbY8MjkdnYIhP5uz",
+    "name" : "m_LND_INWITMC_CDH_LOCATION_ITEM_CDC_LOAD",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V170000000000BZ"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "CDH_STG.LOCATION_STG - CDH_DATA.LOCATION_ITEM\n",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-03-01T18:52:32.281Z",
+  "objectRefs" : [ {
+    "id" : "4bIRsLJ7mJQjfplhenqRUz",
+    "name" : "vivek_azure_sql_server",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000005R"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
