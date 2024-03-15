@@ -16,13 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "desc",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2024-03-15T19:21:24.276Z",
   "objectRefs" : [ {
     "id" : "j3fi9oNLGkEgP8628crhQJ",
     "name" : "vivek_fp_file_rename",
