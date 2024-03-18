@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "6mJbd3AAFIoinhW47OYJqq",
-    "name" : "Synchronization Task1",
-    "type" : "DSS",
+    "id" : "cgL02fjm7AxkUYA28FXdAw",
+    "name" : "Mapping1",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0I000000000002"
+        "repoHandle" : "0100CW17000000000003"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,9 +23,9 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.274Z",
+  "updateTime" : "2023-09-21T20:12:07.561Z",
   "objectRefs" : [ {
-    "id" : "f1zCznmniG8jZCh9z9DJep",
+    "id" : "k02Tnx0DQO8haac6Kl2wYD",
     "name" : "vivek_FF",
     "type" : "Connection",
     "metadata" : {
@@ -34,7 +34,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B000000000002"
+        "repoHandle" : "0100CW0B000000000004"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5pTZQc85SLIhKfTweC8faz",
+    "name" : "SD_REST",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW0B000000000007"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

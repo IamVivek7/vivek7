@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "fIaOOpi4S8GbLIWVYQ4iIX",
-    "name" : "exp_param",
+    "id" : "3EcsKc5aTtWe623GfZglOt",
+    "name" : "mt_db2_loader",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0Z000000000041"
+        "repoHandle" : "0100CW0Z00000000007A"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,70 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.275Z",
+  "updateTime" : "2024-03-18T22:33:21.118Z",
   "objectRefs" : [ {
-    "id" : "1jBwBKt9YIWby3i31JBF4n",
-    "name" : "vivek_FF_48",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002C"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "81ymyPTILezh3CLnxFiheY",
-    "name" : "ASVivek4801",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V25000000000009"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "4jbOiMjceLWfAtzwpgbZur",
-    "name" : "vivek_azure_dw_odbc",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000003M"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "vivek_azure_DW",
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9NgrW4lTzOwgTQRTl9VpQy",
-    "name" : "Mapping38",
+    "id" : "4qflffoDTMxgZokTTtI401",
+    "name" : "m_db2_loader",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -94,15 +34,78 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V1700000000004B"
+        "repoHandle" : "0100CW1700000000006N"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/Default"
+    "path" : "/Explore/PK_db2loader_testing"
+  }, {
+    "id" : "1X2jyrWGygLi7wm3zP1Mkc",
+    "name" : "pk_pvannemrb_inglxora12",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW0B000000000045"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "6zhiY67Z8KPcJNerABc7Ue",
+    "name" : "PavanLinux.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW2500000000000Z"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7na8rvyhOyak8vvVg6wywD",
+    "name" : "pk_db2loader",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW0B000000000044"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
   } ]
 }

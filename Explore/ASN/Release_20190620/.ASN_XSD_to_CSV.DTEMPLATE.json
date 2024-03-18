@@ -1,92 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "fIaOOpi4S8GbLIWVYQ4iIX",
-    "name" : "exp_param",
-    "type" : "MTT",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V0Z000000000041"
-      },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    }
-  },
-  "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.275Z",
-  "objectRefs" : [ {
-    "id" : "1jBwBKt9YIWby3i31JBF4n",
-    "name" : "vivek_FF_48",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002C"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "81ymyPTILezh3CLnxFiheY",
-    "name" : "ASVivek4801",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V25000000000009"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "4jbOiMjceLWfAtzwpgbZur",
-    "name" : "vivek_azure_dw_odbc",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000003M"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "vivek_azure_DW",
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "9NgrW4lTzOwgTQRTl9VpQy",
-    "name" : "Mapping38",
+    "id" : "aqtIbDpEr4eelgVUU7JUgZ",
+    "name" : "ASN_XSD_to_CSV",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -94,15 +9,100 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V1700000000004B"
+        "repoHandle" : "010P9V17000000000007"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2023-12-18T20:23:58.981Z",
+  "objectRefs" : [ {
+    "id" : "fKcnnS7XTWYcOF3iUho845",
+    "name" : "scripts",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000000V"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "MilestoneTypeCode Mapping to Milestone name",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "9dE8kleiFu2jznomerIqGE",
+    "name" : "ASN_XSD",
+    "type" : "HSCHEMA",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V36000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Hierarchical Schema",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/Default"
+    "path" : "/Explore/ASN/Release_20190620"
+  }, {
+    "id" : "0CRK2xHnuTudSVef2xnyUL",
+    "name" : "GTT_IN_OLD_PROCESSING",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000000U"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "lkgcsWFZaa6bqhodpU8hG8",
+    "name" : "GTT_OUT",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000000W"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
   } ]
 }

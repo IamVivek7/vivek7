@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "fIaOOpi4S8GbLIWVYQ4iIX",
-    "name" : "exp_param",
+    "id" : "2EAeARp2Nw3hSXbqbMazC1",
+    "name" : "MappingTask9",
     "type" : "MTT",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,32 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0Z000000000041"
+        "repoHandle" : "0100CW0Z00000000008B"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "INVALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-03-18T22:33:21.117Z",
+  "objectRefs" : [ {
+    "id" : "8ILjyOFm4psdJoqQjifvwO",
+    "name" : "m_db2loader_Amtrak_repro",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW1700000000007G"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -20,13 +45,11 @@
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
-    }
-  },
-  "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.275Z",
-  "objectRefs" : [ {
-    "id" : "1jBwBKt9YIWby3i31JBF4n",
-    "name" : "vivek_FF_48",
+    },
+    "path" : "/Explore/PK_db2loader_testing"
+  }, {
+    "id" : "1X2jyrWGygLi7wm3zP1Mkc",
+    "name" : "pk_pvannemrb_inglxora12",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +57,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002C"
+        "repoHandle" : "0100CW0B000000000045"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -45,8 +68,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "81ymyPTILezh3CLnxFiheY",
-    "name" : "ASVivek4801",
+    "id" : "6zhiY67Z8KPcJNerABc7Ue",
+    "name" : "PavanLinux.informatica.com",
     "type" : "AgentGroup",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +77,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V25000000000009"
+        "repoHandle" : "0100CW2500000000000Z"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -65,8 +88,8 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "4jbOiMjceLWfAtzwpgbZur",
-    "name" : "vivek_azure_dw_odbc",
+    "id" : "7na8rvyhOyak8vvVg6wywD",
+    "name" : "pk_db2loader",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -74,35 +97,15 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000003M"
+        "repoHandle" : "0100CW0B000000000044"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "vivek_azure_DW",
+        "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "9NgrW4lTzOwgTQRTl9VpQy",
-    "name" : "Mapping38",
-    "type" : "DTEMPLATE",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "010P9V1700000000004B"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
   } ]
 }

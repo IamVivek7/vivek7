@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "14inw3mpMwbdxy8zdrJh0h",
-    "name" : "vivek_FileProcessor_decompress",
-    "type" : "DSS",
+    "id" : "furOwMTrm2YdpNT05wPNeF",
+    "name" : "m_mappletLookup_exportimport",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0I00000000000Q"
+        "repoHandle" : "010P9V1700000000005M"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,10 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.276Z",
+  "updateTime" : "2024-03-13T20:09:22.156Z",
   "objectRefs" : [ {
-    "id" : "j3fi9oNLGkEgP8628crhQJ",
-    "name" : "vivek_fp_file_rename",
+    "id" : "7zrgbU9UWECcH0OENiB0K7",
+    "name" : "VS_SQL_Server",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B000000000043"
+        "repoHandle" : "010P9V0B00000000004Y"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -45,8 +45,28 @@
     },
     "path" : "/SYS"
   }, {
-    "id" : "1jBwBKt9YIWby3i31JBF4n",
-    "name" : "vivek_FF_48",
+    "id" : "2md5jvTTjynlSyEFvBUbGc",
+    "name" : "Mapplet_Country",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V40000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Test_mitikaa"
+  }, {
+    "id" : "40qSOcQqySOe4rLf3Xq7kh",
+    "name" : "VS_FlatFile",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -54,7 +74,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002C"
+        "repoHandle" : "010P9V0B00000000004Z"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

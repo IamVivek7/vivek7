@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "6mJbd3AAFIoinhW47OYJqq",
-    "name" : "Synchronization Task1",
-    "type" : "DSS",
+    "id" : "5wlJ2Ap2DOVfT1MfFJXtmO",
+    "name" : "Mapping23",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0I000000000002"
+        "repoHandle" : "010P9V170000000000BL"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,10 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.274Z",
+  "updateTime" : "2023-12-18T20:14:37.640Z",
   "objectRefs" : [ {
-    "id" : "f1zCznmniG8jZCh9z9DJep",
-    "name" : "vivek_FF",
+    "id" : "gX3T2HUKEetl93wTVZ0VGW",
+    "name" : "clockify",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B000000000002"
+        "repoHandle" : "010P9V0B000000000071"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "7sIRDpTAcwLeub5HsmXYei",
+    "name" : "vivek_FF_CDIe",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010P9V0B00000000006W"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

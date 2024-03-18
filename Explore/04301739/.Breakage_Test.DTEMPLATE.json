@@ -1,15 +1,15 @@
 {
   "objectInfo" : {
-    "id" : "14inw3mpMwbdxy8zdrJh0h",
-    "name" : "vivek_FileProcessor_decompress",
-    "type" : "DSS",
+    "id" : "0IzDeUVM8CCdOHJzU3jYy8",
+    "name" : "Breakage_Test",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0I00000000000Q"
+        "repoHandle" : "0100CW1700000000002D"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,10 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.276Z",
+  "updateTime" : "2024-03-18T20:09:53.408Z",
   "objectRefs" : [ {
-    "id" : "j3fi9oNLGkEgP8628crhQJ",
-    "name" : "vivek_fp_file_rename",
+    "id" : "9gKSlcrsSg8hUz8IEtWNqg",
+    "name" : "WideOrbit",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,19 +34,19 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B000000000043"
+        "repoHandle" : "0100CW0B00000000001F"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : null,
+        "description" : "jdbc connector for WO",
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
   }, {
-    "id" : "1jBwBKt9YIWby3i31JBF4n",
-    "name" : "vivek_FF_48",
+    "id" : "9izR2wDrgTXdVDOFdpuXqf",
+    "name" : "Flat_File",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -54,11 +54,11 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B00000000002C"
+        "repoHandle" : "0100CW0B00000000001E"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : null,
+        "description" : "test",
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
       }

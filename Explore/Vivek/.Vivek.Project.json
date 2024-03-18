@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "3AuGE7jouQJgxr0Zvg5bQE",
+    "name" : "Vivek",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-12-18T20:14:37.640Z",
+  "objectRefs" : [ ]
+}
