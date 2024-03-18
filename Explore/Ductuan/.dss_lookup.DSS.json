@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "6mJbd3AAFIoinhW47OYJqq",
-    "name" : "Synchronization Task1",
+    "id" : "61UlwvHA1oqgUHW95RkYUc",
+    "name" : "dss_lookup",
     "type" : "DSS",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0I000000000002"
+        "repoHandle" : "010P9V0I00000000000V"
       },
       "contextAttributes" : [ {
         "name" : "id",
@@ -23,10 +23,10 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-15T19:21:24.274Z",
+  "updateTime" : "2023-09-22T23:19:34.394Z",
   "objectRefs" : [ {
-    "id" : "f1zCznmniG8jZCh9z9DJep",
-    "name" : "vivek_FF",
+    "id" : "kWZSQozbcO9fvmOnm150AV",
+    "name" : "vivek_oracle_clob",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V0B000000000002"
+        "repoHandle" : "010P9V0B00000000003E"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
