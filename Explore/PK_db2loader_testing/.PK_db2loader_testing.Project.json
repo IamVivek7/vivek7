@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "5fx1zGzefSclHqJ5pebtsO",
+    "name" : "PK_db2loader_testing",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-03-18T22:33:21.120Z",
+  "objectRefs" : [ ]
+}
