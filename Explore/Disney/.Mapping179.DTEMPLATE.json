@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "1YXzogGzpk9kJynFDC2maJ",
-    "name" : "Mapping172",
+    "id" : "02CRIzdNOI5jWMpFvrnHS2",
+    "name" : "Mapping179",
     "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "010P9V170000000000DH"
+        "repoHandle" : "010P9V170000000000E1"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "Mapping172Mapping172Mapping172Mapping172Mapping172Mapping172",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "INVALID"
       }

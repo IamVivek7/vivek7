@@ -1,8 +1,8 @@
 {
   "objectInfo" : {
-    "id" : "hFQeSspmjKJdg3h18492id",
-    "name" : "Sap",
-    "type" : "Project",
+    "id" : "8abtXnRtiUFkNEkyN9rrYg",
+    "name" : "Inventory",
+    "type" : "Folder",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
@@ -11,13 +11,13 @@
       "repoInfo" : null,
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "Bex and BW\n",
+        "description" : "",
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2024-04-04T21:45:21.676Z",
+  "updateTime" : "2024-04-27T01:08:29.639Z",
   "objectRefs" : [ ]
 }
