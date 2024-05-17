@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "id" : "49JxRqmG5fIgrsFNVK6Yo1",
+    "name" : "Mapping172",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100CW1700000000008E"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mapping172Mapping172Mapping172Mapping172Mapping172Mapping172",
+        "contentType" : "JSON",
+        "documentState" : "INVALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2024-05-17T08:03:36.887Z",
+  "objectRefs" : [ ]
+}
