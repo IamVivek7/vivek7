@@ -1,0 +1,168 @@
+{
+  "name" : "GBQ_TEST",
+  "runtimeEnvironmentId" : "@81ymyPTILezh3CLnxFiheY",
+  "runtimeEnvironmentName" : "ASVivek4801",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objlabel" : "gbq",
+        "objectParameterized" : "true",
+        "objectParamName" : "gbq",
+        "objectParamType-mapping" : "DataObject",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@80iB7q8amKylSyiGAcoLAT",
+      "connectionName" : "vivek_GBQ",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "connectorsinfa01/CUSTDIM_SESSION_DATA",
+          "label" : "CUSTDIM_SESSION_DATA",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "connectorsinfa01/CUSTDIM_SESSION_DATA",
+            "label" : "CUSTDIM_SESSION_DATA",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "runtimeAttrs" : {
+        "Persist Extract Staging File After Download" : "NO",
+        "Enable Staging File Compression" : "YES",
+        "Job Poll Interval In Seconds" : "10",
+        "SQL Override Query" : "SELECT FULLVISITORID,VISITID,VISITSTARTTIME,DATE,DATE_M,VISITSTARTTIME_M,VISITNUMBER,CD_INDEX,CD_VALUE FROM [api-project-80697026669:connectorsinfa01.CUSTDIM_SESSION_DATA] WHERE VISITNUMBER =  '1'",
+        "Read Mode" : "Direct",
+        "Allow Large Results" : "NO",
+        "Number of Rows to Read" : "0",
+        "Number of Threads for Downloading Staging Files" : "1",
+        "Use Legacy SQL For SQL Override" : "YES",
+        "Persist Destination Table" : "NO",
+        "Data format of the staging file" : "JSON (Newline Delimited)",
+        "Number of Spark Partitions" : "1"
+      },
+      "oprRuntimeAttrs" : {
+        "allowLargeResults" : "NO",
+        "numOfRowsToRead" : "0",
+        "useLegacySQLForSQLOverride" : "YES",
+        "stagingDataFormat" : "JSON (Newline Delimited)",
+        "persistStageFile" : "NO",
+        "jobPollInterval" : "10",
+        "numOfParallelDownloads" : "1",
+        "sqlOverrideQuery" : "SELECT FULLVISITORID,VISITID,VISITSTARTTIME,DATE,DATE_M,VISITSTARTTIME_M,VISITNUMBER,CD_INDEX,CD_VALUE FROM [api-project-80697026669:connectorsinfa01.CUSTDIM_SESSION_DATA] WHERE VISITNUMBER =  '1'",
+        "persistDestinationTable" : "NO",
+        "compression" : "YES",
+        "readMode" : "Direct",
+        "sparkMaxParallelism" : "1"
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "runtimeParameterData" : {
+        "objectParameterName" : "gbq",
+        "objectDefaultValue" : "CUSTDIM_SESSION_DATA",
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : true
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "Target",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@1jBwBKt9YIWby3i31JBF4n",
+      "connectionName" : "vivek_FF_48",
+      "targetObject" : "gbq.txt",
+      "targetObjectLabel" : "gbq.txt",
+      "newFlatFile" : false,
+      "newObject" : true,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "newObjectName" : "gbq.txt",
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "tgtFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "rowDelimiter" : 0,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true
+      },
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "gbq.txt",
+      "objectLabel" : "gbq.txt",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "targetSchemaMode" : "DONT_APPLY_CHANGES",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "lastRunTime" : 1637804401000,
+  "mappingId" : "@gKDniY2OdOsbJl60ZZ7SWn",
+  "mappingTemplateName" : "Mapping74",
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "parameterFileEncoding" : "UTF-8",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2025-10-03 16:25:38 PDT"
+}
