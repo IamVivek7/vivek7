@@ -1,0 +1,151 @@
+{
+  "name" : "MappingTask164",
+  "description" : "..",
+  "runtimeEnvironmentId" : "@1lkj9rdivgkiVWC6H7mnIR",
+  "runtimeEnvironmentName" : "1_____CDI_E_asvagentgroup01.informatica.com",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "isSrcPartitioned" : "true",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@0aF5vG0e3SodajJ2Phv6Im",
+      "connectionName" : "SN_Snowflake_Adv",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+          "label" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+          "metadataUpdated" : false
+        },
+        "advancedFilterExpression" : "object_name = 'SysSubjectEntity'",
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+            "label" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "Target",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "isSrcPartitioned" : "true",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@0aF5vG0e3SodajJ2Phv6Im",
+      "connectionName" : "SN_Snowflake_Adv",
+      "targetObject" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+      "targetObjectLabel" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+      "newFlatFile" : false,
+      "newObject" : true,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "newObjectName" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+      "objectLabel" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "lastRunTime" : 1754930883000,
+  "mappingId" : "@a7ZYgvfm9QQbdOngnytQSv",
+  "mappingTemplateName" : "Mapping2025252160708810034",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Allow Temporary View for Pushdown",
+      "value" : "YES"
+    },
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "Full"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2026-03-24 12:42:06 PDT"
+}

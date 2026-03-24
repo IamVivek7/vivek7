@@ -1,0 +1,1368 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "Mapping2025252160708810034",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "transformations" : [
+      {
+        "augmented" : "false",
+        "createTime" : "2025-08-04T11:25:34.907Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "OBJECT_NAME"
+            },
+            "name" : "OBJECT_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOAD_TYPE"
+            },
+            "name" : "LOAD_TYPE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EXTRACT_KEY"
+            },
+            "name" : "EXTRACT_KEY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEBUG_MODE"
+            },
+            "name" : "DEBUG_MODE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 7,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MODULE"
+            },
+            "name" : "MODULE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BATCHNUM"
+            },
+            "name" : "BATCHNUM",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LAST_EXTRACT_TIME"
+            },
+            "name" : "LAST_EXTRACT_TIME",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "EXPAND_ATTR"
+            },
+            "name" : "EXPAND_ATTR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COLUMN_HEADER"
+            },
+            "name" : "COLUMN_HEADER",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACTIVE_IND"
+            },
+            "name" : "ACTIVE_IND",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 7,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CHANGED_BY"
+            },
+            "name" : "ROW_CHANGED_BY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CHANGED_DATE"
+            },
+            "name" : "ROW_CHANGED_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CREATED_BY"
+            },
+            "name" : "ROW_CREATED_BY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CREATED_DATE"
+            },
+            "name" : "ROW_CREATED_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "FILTER_COND"
+            },
+            "name" : "FILTER_COND",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CURRENT_RUNTIME"
+            },
+            "name" : "CURRENT_RUNTIME",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "PWV_OBJECT_NAME"
+            },
+            "name" : "PWV_OBJECT_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "PWV_SAFE_NAME"
+            },
+            "name" : "PWV_SAFE_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@0aF5vG0e3SodajJ2Phv6Im",
+          "connectionName" : "SN_Snowflake_Adv",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+            "label" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+            "objectName" : "INFA_INTERFACE_CNTRL",
+            "objectType" : "table",
+            "path" : "GCS/GCS_SCHEMA_3/INFA_INTERFACE_CNTRL",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "OBJECT_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "OBJECT_NAME",
+                "nativeName" : "OBJECT_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "LOAD_TYPE",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOAD_TYPE",
+                "nativeName" : "LOAD_TYPE",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "EXTRACT_KEY",
+                "fieldType" : "CONNECTOR",
+                "label" : "EXTRACT_KEY",
+                "nativeName" : "EXTRACT_KEY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "DEBUG_MODE",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEBUG_MODE",
+                "nativeName" : "DEBUG_MODE",
+                "nativeType" : "boolean",
+                "original" : "false",
+                "precision" : 7,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "MODULE",
+                "fieldType" : "CONNECTOR",
+                "label" : "MODULE",
+                "nativeName" : "MODULE",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "BATCHNUM",
+                "fieldType" : "CONNECTOR",
+                "label" : "BATCHNUM",
+                "nativeName" : "BATCHNUM",
+                "nativeType" : "number",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "LAST_EXTRACT_TIME",
+                "fieldType" : "CONNECTOR",
+                "label" : "LAST_EXTRACT_TIME",
+                "nativeName" : "LAST_EXTRACT_TIME",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "EXPAND_ATTR",
+                "fieldType" : "CONNECTOR",
+                "label" : "EXPAND_ATTR",
+                "nativeName" : "EXPAND_ATTR",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "COLUMN_HEADER",
+                "fieldType" : "CONNECTOR",
+                "label" : "COLUMN_HEADER",
+                "nativeName" : "COLUMN_HEADER",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ACTIVE_IND",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACTIVE_IND",
+                "nativeName" : "ACTIVE_IND",
+                "nativeType" : "boolean",
+                "original" : "false",
+                "precision" : 7,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CHANGED_BY",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CHANGED_BY",
+                "nativeName" : "ROW_CHANGED_BY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CHANGED_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CHANGED_DATE",
+                "nativeName" : "ROW_CHANGED_DATE",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CREATED_BY",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CREATED_BY",
+                "nativeName" : "ROW_CREATED_BY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CREATED_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CREATED_DATE",
+                "nativeName" : "ROW_CREATED_DATE",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "FILTER_COND",
+                "fieldType" : "CONNECTOR",
+                "label" : "FILTER_COND",
+                "nativeName" : "FILTER_COND",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "CURRENT_RUNTIME",
+                "fieldType" : "CONNECTOR",
+                "label" : "CURRENT_RUNTIME",
+                "nativeName" : "CURRENT_RUNTIME",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "PWV_OBJECT_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "PWV_OBJECT_NAME",
+                "nativeName" : "PWV_OBJECT_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              },
+              {
+                "name" : "PWV_SAFE_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "PWV_SAFE_NAME",
+                "nativeName" : "PWV_SAFE_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_CNTRL"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableType",
+                "value" : "TABLE"
+              },
+              {
+                "name" : "storageSerPol",
+                "value" : "Optimized"
+              },
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false",
+            "advancedFilterCondition" : "object_name = 'SysSubjectEntity'"
+          }
+        },
+        "partitioning" : {
+          "partitions" : [
+            {
+              "attributes" : [
+                {
+                  "name" : "Source Filter",
+                  "value" : "SysSubjectEntity"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "augmented" : "false",
+        "createTime" : "2025-08-04T11:25:34.907Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "true",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "OBJECT_NAME"
+            },
+            "name" : "OBJECT_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LOAD_TYPE"
+            },
+            "name" : "LOAD_TYPE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "EXTRACT_KEY"
+            },
+            "name" : "EXTRACT_KEY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEBUG_MODE"
+            },
+            "name" : "DEBUG_MODE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 7,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "MODULE"
+            },
+            "name" : "MODULE",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "BATCHNUM"
+            },
+            "name" : "BATCHNUM",
+            "platformType" : {
+              "name" : "decimal"
+            },
+            "precision" : 38,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "LAST_EXTRACT_TIME"
+            },
+            "name" : "LAST_EXTRACT_TIME",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "EXPAND_ATTR"
+            },
+            "name" : "EXPAND_ATTR",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "COLUMN_HEADER"
+            },
+            "name" : "COLUMN_HEADER",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ACTIVE_IND"
+            },
+            "name" : "ACTIVE_IND",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 7,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CHANGED_BY"
+            },
+            "name" : "ROW_CHANGED_BY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CHANGED_DATE"
+            },
+            "name" : "ROW_CHANGED_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CREATED_BY"
+            },
+            "name" : "ROW_CREATED_BY",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "ROW_CREATED_DATE"
+            },
+            "name" : "ROW_CREATED_DATE",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "FILTER_COND"
+            },
+            "name" : "FILTER_COND",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "CURRENT_RUNTIME"
+            },
+            "name" : "CURRENT_RUNTIME",
+            "platformType" : {
+              "name" : "date/time"
+            },
+            "precision" : 29,
+            "scale" : 9
+          },
+          {
+            "adapterField" : {
+              "name" : "PWV_OBJECT_NAME"
+            },
+            "name" : "PWV_OBJECT_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "PWV_SAFE_NAME"
+            },
+            "name" : "PWV_SAFE_NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 16777216,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@0aF5vG0e3SodajJ2Phv6Im",
+          "connectionName" : "SN_Snowflake_Adv",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "TOOLKIT",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+            "label" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+            "path" : "GCS/GCS_PSABNANI/INFA_INTERFACE_NEW",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "OBJECT_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "OBJECT_NAME",
+                "nativeName" : "OBJECT_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "LOAD_TYPE",
+                "fieldType" : "CONNECTOR",
+                "label" : "LOAD_TYPE",
+                "nativeName" : "LOAD_TYPE",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "EXTRACT_KEY",
+                "fieldType" : "CONNECTOR",
+                "label" : "EXTRACT_KEY",
+                "nativeName" : "EXTRACT_KEY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "DEBUG_MODE",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEBUG_MODE",
+                "nativeName" : "DEBUG_MODE",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 7,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "MODULE",
+                "fieldType" : "CONNECTOR",
+                "label" : "MODULE",
+                "nativeName" : "MODULE",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "BATCHNUM",
+                "fieldType" : "CONNECTOR",
+                "label" : "BATCHNUM",
+                "nativeName" : "BATCHNUM",
+                "nativeType" : "number",
+                "original" : "false",
+                "precision" : 38,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "LAST_EXTRACT_TIME",
+                "fieldType" : "CONNECTOR",
+                "label" : "LAST_EXTRACT_TIME",
+                "nativeName" : "LAST_EXTRACT_TIME",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "EXPAND_ATTR",
+                "fieldType" : "CONNECTOR",
+                "label" : "EXPAND_ATTR",
+                "nativeName" : "EXPAND_ATTR",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "COLUMN_HEADER",
+                "fieldType" : "CONNECTOR",
+                "label" : "COLUMN_HEADER",
+                "nativeName" : "COLUMN_HEADER",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "ACTIVE_IND",
+                "fieldType" : "CONNECTOR",
+                "label" : "ACTIVE_IND",
+                "nativeName" : "ACTIVE_IND",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 7,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CHANGED_BY",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CHANGED_BY",
+                "nativeName" : "ROW_CHANGED_BY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CHANGED_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CHANGED_DATE",
+                "nativeName" : "ROW_CHANGED_DATE",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CREATED_BY",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CREATED_BY",
+                "nativeName" : "ROW_CREATED_BY",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "ROW_CREATED_DATE",
+                "fieldType" : "CONNECTOR",
+                "label" : "ROW_CREATED_DATE",
+                "nativeName" : "ROW_CREATED_DATE",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "FILTER_COND",
+                "fieldType" : "CONNECTOR",
+                "label" : "FILTER_COND",
+                "nativeName" : "FILTER_COND",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "CURRENT_RUNTIME",
+                "fieldType" : "CONNECTOR",
+                "label" : "CURRENT_RUNTIME",
+                "nativeName" : "CURRENT_RUNTIME",
+                "nativeType" : "timestampntz",
+                "original" : "false",
+                "precision" : 29,
+                "scale" : 9,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "PWV_OBJECT_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "PWV_OBJECT_NAME",
+                "nativeName" : "PWV_OBJECT_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              },
+              {
+                "name" : "PWV_SAFE_NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "PWV_SAFE_NAME",
+                "nativeName" : "PWV_SAFE_NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 16777216,
+                "scale" : 0,
+                "metaExtensions" : [
+                  {
+                    "name" : "isNullable",
+                    "value" : "true"
+                  }
+                ],
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "INFA_INTERFACE_NEW"
+                  }
+                ]
+              }
+            ],
+            "objectAttributes" : [
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              },
+              {
+                "name" : "parent",
+                "value" : "GCS/GCS_PSABNANI"
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false",
+            "tgtObjectAttributes" : [
+              {
+                "name" : "tableFormat",
+                "value" : "Standard Table"
+              },
+              {
+                "name" : "parent",
+                "value" : "GCS/GCS_PSABNANI"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-03-24 12:42:06 PDT"
+}
